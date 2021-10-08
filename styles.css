@@ -201,7 +201,7 @@ a button:hover{
 }
 .top-right-con{
     margin-bottom: 5px;
-    text-align:left;
+    text-align:right;
 }
 .buttons{
     display: flex;

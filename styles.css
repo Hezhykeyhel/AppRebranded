@@ -63,13 +63,14 @@ label #btn{
 .but{
     margin-left: 30px;
     margin-top: 10px;
-    color: white;
     text-align: center;
     border-radius: 5px;
+    background: rgb(219, 181, 181);
     width: 70%;
-    background-color: rgb(131, 28, 28);
 }
-
+.but:hover{
+    color: white;
+}
 header{
     position: relative;
     right:0px;
@@ -131,7 +132,7 @@ span{
 }
 input{
     padding: 0.5em;
-    width: 365px;
+    width: 50%;
     border: rgb(131, 28, 28) solid 1px;
     border-radius: 5px;
     outline: none;
@@ -139,12 +140,17 @@ input{
 }
 a button{
     padding: 0.5em 55px;
-    width: 380px;
+    width: 50%;
     color: #fff;
     background: rgb(131, 28, 28);
     outline: none;
     border: none;
     border-radius: 5px;
+}
+a button:hover{
+    outline: none;
+    background: rgb(219, 181, 181);
+    color: black;
 }
 #eyes{
     margin-left: -35px;
@@ -463,7 +469,6 @@ small{
     font-family: Lato;
 }
 .myFunds{
-    margin-right: 45%;
     margin-left: 20px;
     font-size: 25px;
 }
@@ -474,12 +479,11 @@ small{
 hr{
     outline: none;
     text-decoration: none;
-    border: solid 1px rgb(245, 244, 244);
+    border: solid 1px rgb(255, 252, 252);
 }
 .first_div{
     text-align: center;
     padding: 1em;
-    margin-left: 130px;
     display: flex;
     flex-direction: row;
     font-size: 18px;
@@ -489,14 +493,12 @@ hr{
 .second_container{
     padding: 1em;
     text-align: left;
-    width: 490px;
 }
 .middle-content-container{
     display: flex;
     flex-direction: column;
     background: #bbb;
     padding: 1em;
-    width: 320px;
     border-radius: 8px;
     text-align: left;
 }
@@ -523,14 +525,14 @@ hr{
 }
 .share{
     position: relative;
-    left: 150px;
+    left: 25%;
     top: 10px;
     font-size: 18px;
     color: rgb(131, 28, 28);
 }
 .share2{
     position: relative;
-    left: 150px;
+    left: 10%;
     top: 10px;
     font-size: 18px;
     color: rgb(131, 28, 28);
@@ -558,8 +560,15 @@ hr{
     width: 300px;
     text-align: center;
     margin-left: 80px;
+    font-weight: bold;
     margin-top: 10px;
 
+}
+.funds_btn:hover{
+    cursor: pointer;
+    background: rgb(219, 181, 181);
+    color: black;
+    transition: 1s ease-in-out ;
 }
 .fundwallet{
     text-decoration: none;

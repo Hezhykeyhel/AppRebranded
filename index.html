@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>1app page</title>
+</head>
+<body>
+    <nav class="navigation">
+        <input type="checkbox" id="check">
+        <label for="check">
+        <i class="fa fa-bars" id="btn">&nbsp;&nbsp;Dashboard</i>
+        <i class="fa fa-times" id="cancel"></i>
+        </label>
+        <div class="sidebar">
+            <header>
+                <div class="user"><img class="my_image" src="https://i0.wp.com/techpadi.africa/wp-content/uploads/2021/02/IMG-20210202-WA0004.jpg?resize=1024%2C1024&ssl=1"></div><br><br>
+                <h4>Damilola Egbetayo</h4><br><br>
+                <h6>damilolaegbetayo12@gmail.com</h6>
+            </header>
+            <a href="#home"><i class="fa fa-wallet"></i> &nbsp Wallet History</a>
+            <a href="#home"><i class="fa fa-download"></i> &nbsp Saved Transactions</a>
+            <a href="#home"><i class="fa fa-chart-line"></i> &nbsp Campaign List</a>
+            <a href="#home"><i class="fa fa-share "></i> &nbsp Invite</a>
+            <a href="#home"><i class="fa fa-tag"></i> &nbsp Price</a>
+            <a href="#home"><i class="fa fa-history"></i> &nbsp Update/Review App</a>
+            <a href="#home"><i id="cog" class="fa fa-cog"></i>&nbsp  Settings</a>
+            <div class="but"><i class="fa fa-power-off"></i>&nbsp Log out</div>
+        </div>
+            <div><i id="top-nav" class="far fa-bell"></i></div>
+    </nav>
+    <main class="main-container">
+    <section id="banner">
+        <div class="first-container">
+            <h4><b>Good Evening, Damilola</b></h4>
+            <div class="filter">
+            <div class="top-left-con">
+            <p>Wallet Balance </p>
+            <p id="account">#165,000.31&nbsp;<i id="togglePassword" class="fas fa-eye"></i></p>
+            </div>
+            <div class="top-right-con">
+                <p><b>PROVIDUS BANK</b></p>
+                <p>9980712260</p>
+                <small onclick="togglebottom()" style="color: rgb(209, 209, 1);">See other account(s)</small>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="btns">Fund Wallet</div>
+                <div class="btns">Transactions</div>
+            </div>
+        </div>
+    </section>
+    <!-- middle container -->
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 imgContainer">
+            <img class="myImg2" src="https://cloud.obounce.net/media_library/605da7a09574b4.94867944.png">
+        </div>
+        <div class="col-md-6 imgContainer">
+            <img class="myImg1" src="https://cloud.obounce.net/media_library/605d9864e8a6e0.52968899.png">
+        </div>
+        </div>
+        </div>
+        <div class="services">
+        <div class="top-service">
+        <p><b>Our Services</b></p>
+        <a href="services.html"><i id="caret" class="fas fa-caret-right"></i></a>
+        </div>
+        <div class="service-items">
+            <div class="serve"><i id="items" class="fas fa-phone-alt"></i>Airtime</div>
+            <div class="serve"><i id="items" class="fas fa-wifi"></i>Data</div>
+            <div class="serve"><i id="items" class="far fa-lightbulb"></i>Bills</div>
+            <div class="serve"><i id="items" class="fas fa-user"></i><p class="upgrade">Upgrade</p></div>
+        </div>
+        <div id="togglerdiv">
+            <div class="serve"><i id="items" class="fas fa-gift"></i><p class="upgrade">Send Gifts</p></div>
+            <div class="serve"><i id="items" class="fas fa-wallet"></i><p class="upgrade">Transfer</p></div>
+            <div class="serve"><i id="items" class="fas fa-mobile"></i><p class="upgrade">Data 2</p></div>
+            <div class="serve"><i id="items" class="fas fa-globe"></i><p class="upgrade">Big Data</p></div>            
+        </div>
+        <div onclick="toggle()" class="serve2">More Services</div>
+    </div>
+    <div class="image_btw">
+        <div class="my_image_con"> <img class="my_image" src="https://i0.wp.com/techpadi.africa/wp-content/uploads/2021/02/IMG-20210202-WA0004.jpg?resize=1024%2C1024&ssl=1"></div>
+        <div class="text">
+           <p class="bottom-text"><b>1app Update</b></p>
+           <div class="happenings">Check the latest happenings on 1app</small></div>
+        </div>
+    </div>
+    <section class="bottom-contents">
+        <div class="top-service">
+        <p><b>Lifestyle</b></p>
+        <i id="caret" class="fas fa-caret-right"></i>
+        </div><br>
+        <div class="bottom">
+        <div class="bottom-divs">
+            <i id="bottom_div-icons" class="fas fa-wallet"></i>
+            <p class="bottom-text"><b>Invest</b></p>
+            <small>Become our business partner.</small>
+        </div>
+        <div class="bottom-divs">
+            <i id="bottom_div-icons" class="fas fa-clipboard"></i>
+            <p class="bottom-text"><b>Get Loan</b></p>
+            <small>Quick funds for your needs.</small>
+        </div>
+        <div class="bottom-divs">
+            <i id="bottom_div-icons" class="fas fa-paper-plane"></i>
+            <p class="bottom-text"><b>Crowdfund</b></p>
+            <small>Raise money and get big rewards.</small>
+        </div>
+        <div class="bottom-divs">
+            <i id="bottom_div-icons" class="fas fa-chart-line"></i>
+            <p class="bottom-text"><b>Campaigns</b></p>
+            <small>Your crowdfund campaign list(s)</small>
+        </div>
+        </div>
+        <div id="toggled_div">
+            <div class="toggled"><i id="items_below" class="fas fa-home"></i><p class="upgraded">Providus Bank</p>
+            <p>9980712260&nbsp;&nbsp; <i class="fas fa-clipboard"></i></p>
+            </div>
+            <div class="toggled"><i id="items_below" class="fas fa-home"></i><p class="upgraded">Sterling Bank</p>
+                <p>8379519607&nbsp;&nbsp; <i class="fas fa-clipboard"></i></p>
+                </div>
+        </div>
+        </section>
+        <div class="contact">
+        <i id="headset" class="fas fa-headset"></i>
+        </div>
+        <div class="bottom-layer">
+            <div class="layer-icons">
+                <div class="btm-icons"><i class="fas fa-home"></i></div>
+                <small>Home</small>
+            </div>
+            <div class="layer-icons">
+                <div class="btm-icons"><i class="fas fa-users"></i></div>
+                <small>Referrals</small>
+            </div>
+            <div class="layer-icons">
+                <div class="btm-icons"><i class="fas fa-headset"></i></div>
+                <small>Support</small>
+            </div>
+            <div class="layer-icons">
+                <div class="btm-icons"><i class="fas fa-credit-card"></i></div>
+                <small>Cards</small>
+            </div>
+            <div class="layer-icons">
+                <div class="btm-icons"><i class="fas fa-user"></i></div>
+                <small>Profile</small>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

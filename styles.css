@@ -496,7 +496,7 @@ hr{
     flex-direction: column;
     background: #bbb;
     padding: 1em;
-    width: 360px;
+    width: 320px;
     border-radius: 8px;
     text-align: left;
 }
@@ -530,7 +530,7 @@ hr{
 }
 .share2{
     position: relative;
-    left: 265px;
+    left: 150px;
     top: 10px;
     font-size: 18px;
     color: rgb(131, 28, 28);

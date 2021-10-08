@@ -469,8 +469,9 @@ small{
     font-family: Lato;
 }
 .myFunds{
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 10px;
+    margin-top:-5px;
+    font-size: 20px;
 }
 .funds_container{
     text-align: center;

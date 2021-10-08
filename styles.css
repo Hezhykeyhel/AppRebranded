@@ -103,7 +103,7 @@ header{
 #check:checked ~ label #btn{
     left: 100px;
     opacity: 0;
-    transition: all .5s ease-in;
+    transition: all 1s ease-in-out;
 }
 #check:checked ~ label #cancel{
     left: 260px;
